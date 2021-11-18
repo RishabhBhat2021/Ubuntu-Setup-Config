@@ -23,3 +23,6 @@ gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
 
 # Adding Programs to the Dock
 dconf write /org/gnome/shell/favorite-apps "['org.gnome.Nautilus.desktop', 'rhythmbox.desktop', 'libreoffice-writer.desktop', 'snap-store_ubuntu-software.desktop', 'org.gnome.Terminal.desktop', 'google-chrome.desktop', 'code_code.desktop']"
+
+# Enabling Dark Theme
+gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
