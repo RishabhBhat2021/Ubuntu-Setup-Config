@@ -20,3 +20,6 @@ sudo apt autoremove -y
 
 # Font size
 gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
+
+dconf write /org/gnome/shell/favorite-apps "['org.gnome.Nautilus.desktop', 'rhythmbox.desktop', 'libreoffice-writer.desktop', 'snap-store_ubuntu-software.desktop', 'org.gnome.Terminal.desktop', 'google-chrome.desktop', 'code_code.desktop']
+"
