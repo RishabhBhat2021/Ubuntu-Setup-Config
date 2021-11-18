@@ -11,6 +11,9 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 
+# Installing Git
+sudo apt install git-all
+
 # Removing Pre-Installed Games
 sudo apt remove aisleriot gnome-mahjongg gnome-mines gnome-sudoku -y
 sudo apt autoremove -y
