@@ -23,3 +23,6 @@ dconf write /org/gnome/shell/favorite-apps "['org.gnome.Nautilus.desktop', 'rhyt
 
 # Enabling Dark Theme
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
+
+# Clock setting for Dual Boot, UTC to Local
+timedatectl set-local-rtc 1
