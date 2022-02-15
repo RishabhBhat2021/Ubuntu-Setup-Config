@@ -15,7 +15,7 @@ rm google-chrome-stable_current_amd64.deb
 sudo apt remove aisleriot gnome-mahjongg gnome-mines gnome-sudoku -y
 sudo apt autoremove -y
 
-# Font size
+# Large Text - Accessibilty (increses font size) 
 gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
 
 # Adding Programs to the Dock
