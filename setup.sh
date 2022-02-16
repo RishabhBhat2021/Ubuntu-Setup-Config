@@ -16,7 +16,7 @@ sudo apt remove aisleriot gnome-mahjongg gnome-mines gnome-sudoku -y
 sudo apt autoremove -y
 
 # Large Text - Accessibilty (increses font size) 
-gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
+# gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
 
 # Adding Programs to the Dock
 dconf write /org/gnome/shell/favorite-apps "['org.gnome.Nautilus.desktop', 'snap-store_ubuntu-software.desktop', 'google-chrome.desktop', 'org.gnome.Terminal.desktop', 'code_code.desktop']"
